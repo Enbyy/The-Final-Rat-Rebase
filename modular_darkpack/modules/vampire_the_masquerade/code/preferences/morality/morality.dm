@@ -40,10 +40,11 @@
 
 	stat_morality.morality_path = new value(target)
 
-/mob/living/proc/get_enlightenment()
+/mob/living/proc/is_enlightenment()
 	var/datum/st_stat/morality_path/morality/stat_morality = storyteller_stats["[STAT_MORALITY]"]
 	if(!stat_morality?.morality_path)
-		return
+		return FALSE
 
 	if(stat_morality.morality_path.alignment == MORALITY_ENLIGHTENMENT)
 		return TRUE
+	return FALSE
