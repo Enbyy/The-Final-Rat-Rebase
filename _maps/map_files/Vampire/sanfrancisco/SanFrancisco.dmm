@@ -577,7 +577,7 @@
 	pixel_y = 15;
 	name = "bars"
 	},
-/obj/structure/platform/lowwall/market/window,
+/obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/police)
 "ahD" = (
@@ -41370,6 +41370,11 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
+"lap" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/mob/living/basic/deer,
+/turf/open/misc/grass,
+/area/vtm/outside/pacificheights/forest)
 "lat" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -47662,6 +47667,10 @@
 /obj/structure/ladder/manhole/down,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/financialdistrict)
+"mJf" = (
+/mob/living/basic/deer,
+/turf/open/misc/grass,
+/area/vtm/outside/pacificheights/forest)
 "mJg" = (
 /obj/structure/flora/rock/darkpack_big,
 /turf/open/misc/grass,
@@ -52063,7 +52072,7 @@
 	pixel_y = 8;
 	name = "bars"
 	},
-/obj/structure/platform/lowwall/market/window,
+/obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/police/upstairs)
 "nOA" = (
@@ -54159,6 +54168,10 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/fishermanswharf/lower)
+"onO" = (
+/mob/living/basic/deer,
+/turf/open/misc/grass,
+/area/vtm/outside/forest)
 "onP" = (
 /obj/structure/flora/tree/vamp/pine{
 	pixel_x = -10;
@@ -55457,6 +55470,15 @@
 	},
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/bianchiBank)
+"oEl" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 15;
+	name = "bars"
+	},
+/obj/structure/platform/lowwall/market/window/reinforced,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/police/upstairs)
 "oEn" = (
 /obj/machinery/light/small/red/directional/east,
 /turf/open/misc/dirt,
@@ -56739,6 +56761,11 @@
 /obj/structure/vampdoor/oldwood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
+"oXe" = (
+/obj/structure/flora/bush/pointy/style_random,
+/mob/living/basic/deer,
+/turf/open/misc/grass,
+/area/vtm/outside/forest)
 "oXi" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/baali,
@@ -67117,6 +67144,11 @@
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"rKs" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/mob/living/basic/deer,
+/turf/open/misc/grass,
+/area/vtm/outside/forest)
 "rKu" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 5
@@ -85660,7 +85692,7 @@
 	pixel_y = 8;
 	name = "bars"
 	},
-/obj/structure/platform/lowwall/market/window,
+/obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/police/upstairs)
 "wMD" = (
@@ -134050,7 +134082,7 @@ pDA
 bSf
 cJF
 bqB
-pDA
+rKs
 lzC
 cJF
 cJF
@@ -134099,7 +134131,7 @@ gdL
 jTm
 jTm
 xYv
-nqH
+lap
 wEr
 nqH
 nqH
@@ -134698,7 +134730,7 @@ flA
 pDA
 flA
 cJF
-cJF
+onO
 pDA
 sWS
 sWS
@@ -137323,7 +137355,7 @@ cJF
 cJF
 mPm
 cJF
-iab
+oXe
 cJF
 cJF
 pDA
@@ -137771,7 +137803,7 @@ efN
 efN
 efN
 xLf
-efN
+mJf
 efN
 efN
 efN
@@ -139151,7 +139183,7 @@ fZK
 cJF
 cJF
 cJF
-cJF
+onO
 sWS
 sWS
 sWS
@@ -143283,7 +143315,7 @@ efN
 nqH
 efN
 nqH
-nqH
+avX
 nqH
 efN
 efN
@@ -143444,7 +143476,7 @@ cJF
 cJF
 cJF
 juU
-pDA
+rKs
 pDA
 sjM
 eQV
@@ -189594,15 +189626,15 @@ arx
 arx
 arx
 arx
-ceD
-ceD
-ceD
+oEl
+oEl
+oEl
 arx
 arx
-ceD
-ceD
-ceD
-ceD
+oEl
+oEl
+oEl
+oEl
 arx
 arx
 arx
@@ -191245,9 +191277,9 @@ arx
 arx
 arx
 arx
-ceD
-ceD
-ceD
+oEl
+oEl
+oEl
 arx
 rfu
 rfu
@@ -192251,8 +192283,8 @@ cRA
 cRA
 arx
 arx
-ceD
-ceD
+oEl
+oEl
 pwm
 xWj
 arx
@@ -193266,9 +193298,9 @@ mjT
 mjT
 mjT
 arx
-ceD
-ceD
-ceD
+oEl
+oEl
+oEl
 arx
 okl
 mjT
