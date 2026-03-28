@@ -40,12 +40,20 @@
 	SEND_SIGNAL(user, COMSIG_MOB_BEGIN_FISHING_MINIGAME, src)
 	if(!get_difficulty()) // difficulty <= 0: instant win, already handled
 		return
+	if(auto_reel)
+		on_skillcheck_result(user, TRUE)
+		return
 	var/sc_diff = clamp(round(5 - difficulty * 0.04), 1, 5)
 	var/datum/skillcheck/sc = new()
 	sc.start(user, sc_diff, CALLBACK(src, PROC_REF(on_skillcheck_result)))
 
 /datum/fishing_challenge/proc/on_skillcheck_result(mob/living/cb_user, passed)
 	complete(passed)
+
+// add the auto-reel to the camping store
+/obj/structure/retail/camping/Initialize()
+	. = ..()
+	products_list += new /datum/data/vending_product("fishing lines kit", /obj/item/storage/box/fishing_lines/master)
 
 /obj/structure/closet/crate/cooler
 	name = "cooler"
