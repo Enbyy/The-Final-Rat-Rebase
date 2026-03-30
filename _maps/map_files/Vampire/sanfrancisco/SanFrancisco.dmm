@@ -11766,7 +11766,7 @@
 /turf/open/floor/wood/herring,
 /area/vtm/outside/giovanni/courtyard)
 "deZ" = (
-/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/closet/secure_closet/freezer,
 /obj/item/storage/box/ingredients/random,
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/factory,
@@ -28967,7 +28967,7 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/setite)
 "hHX" = (
-/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/closet/secure_closet/freezer,
 /obj/item/storage/box/ingredients/random,
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/clinic,
@@ -53395,6 +53395,12 @@
 /obj/effect/mapping_helpers/door/access/baron,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
+"obl" = (
+/obj/effect/turf_decal/siding/grey,
+/obj/structure/table/countertop,
+/obj/structure/sink/basin/directional/north,
+/turf/open/floor/city/factory,
+/area/vtm/interior)
 "obE" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random{
@@ -57465,7 +57471,7 @@
 /area/vtm/interior/caves)
 "pbc" = (
 /obj/structure/railing,
-/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/banu/haven)
 "pbg" = (
@@ -58436,7 +58442,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/city/plating,
 /area/vtm/interior/shop)
 "plW" = (
@@ -60707,7 +60713,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazzclub)
 "pSl" = (
-/obj/structure/closet/secure_closet/freezer/meat,
+/obj/structure/closet/secure_closet/freezer,
 /obj/item/storage/box/ingredients/random,
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -75472,6 +75478,7 @@
 "tPv" = (
 /obj/structure/table/countertop,
 /obj/effect/turf_decal/siding/beige,
+/obj/structure/sink/basin/directional/north,
 /turf/open/floor/city/clinic,
 /area/vtm/interior)
 "tPw" = (
@@ -76691,6 +76698,7 @@
 	pixel_x = 8;
 	density = 0
 	},
+/obj/machinery/light/prince/directional/east,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazzclub)
 "ugy" = (
@@ -172042,7 +172050,7 @@ xrk
 nMq
 baE
 baE
-fbZ
+baE
 jAV
 vYN
 mEQ
@@ -172653,7 +172661,7 @@ hrR
 yjW
 bhP
 gZf
-baE
+fbZ
 gVQ
 bMY
 pPh
@@ -173061,7 +173069,7 @@ hcm
 nql
 xqN
 aSt
-baE
+fbZ
 bTn
 bMY
 pPh
@@ -173467,7 +173475,7 @@ qFI
 iUb
 kVh
 agj
-gPV
+obl
 aSt
 baE
 baE
@@ -173674,7 +173682,7 @@ agj
 mNR
 baE
 baE
-fbZ
+baE
 jAV
 iMr
 wBs
