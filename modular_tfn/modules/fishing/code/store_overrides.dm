@@ -1,8 +1,8 @@
 // mostly for crafting recipes
 /obj/structure/retail/hardware_store/Initialize()
 	. = ..()
-	products_list += new /datum/data/vending_product("fifty sheets of glass", /obj/item/glass/fifty, 500)
-	products_list += new /datum/data/vending_product("fifty sheets of iron", /obj/item/iron/fifty, 500)
+	products_list += new /datum/data/vending_product("fifty sheets of glass", /obj/item/stack/sheet/glass/fifty, 500)
+	products_list += new /datum/data/vending_product("fifty sheets of iron", /obj/item/stack/sheet/iron/fifty, 500)
 
 /obj/structure/retail/camping/Initialize()
 	. = ..()
