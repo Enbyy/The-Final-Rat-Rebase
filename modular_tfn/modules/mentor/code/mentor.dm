@@ -100,8 +100,6 @@ GLOBAL_PROTECT(mentor_href_token)
 			dbfail = TRUE
 		else
 			var/mentor_ckey = ckey(query_load_mentors.item[1])
-			if(GLOB.mentor_datums[mentor_ckey])
-				continue
 			new /datum/mentors(mentor_ckey)
 		qdel(query_load_mentors)
 
