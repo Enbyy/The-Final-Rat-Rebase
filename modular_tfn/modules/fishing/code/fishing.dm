@@ -75,6 +75,7 @@
 	)
 	time = 10 SECONDS
 	category = CAT_MISC
+	crafting_flags = CRAFT_SKIP_MATERIALS_PARITY
 
 /datum/supply_pack/local/cooler_kit
 	name = "Cooler kit"
@@ -182,6 +183,10 @@
 	average_weight = 40
 	dedicated_in_aquarium_icon_state = "guppy_small"
 	aquarium_vc_color = "#d97f4e"
+	sprite_width = 8
+	sprite_height = 5
+	required_temperature_min = MIN_AQUARIUM_TEMP+20
+	required_temperature_max = MIN_AQUARIUM_TEMP+28
 
 /obj/item/fish/darkpack/guppy/Initialize(mapload)
 	. = ..()
@@ -197,6 +202,10 @@
 	average_weight = 60
 	dedicated_in_aquarium_icon_state = "greenchromis_small"
 	aquarium_vc_color = "#4ca843"
+	sprite_width = 5
+	sprite_height = 3
+	required_temperature_min = MIN_AQUARIUM_TEMP+23
+	required_temperature_max = MIN_AQUARIUM_TEMP+28
 
 /obj/item/fish/darkpack/greenchromis/Initialize(mapload)
 	. = ..()
@@ -212,6 +221,11 @@
 	average_weight = 70
 	dedicated_in_aquarium_icon_state = "cardinalfish_small"
 	aquarium_vc_color = "#d4312c"
+	sprite_width = 6
+	sprite_height = 3
+	fish_traits = list(/datum/fish_trait/vegan)
+	required_temperature_min = MIN_AQUARIUM_TEMP+22
+	required_temperature_max = MIN_AQUARIUM_TEMP+30
 
 /obj/item/fish/darkpack/cardinalfish/Initialize(mapload)
 	. = ..()
@@ -226,6 +240,10 @@
 	average_size = 5
 	average_weight = 45
 	dedicated_in_aquarium_icon_state = "plastetra_small"
+	sprite_width = 4
+	sprite_height = 2
+	required_temperature_min = MIN_AQUARIUM_TEMP+20
+	required_temperature_max = MIN_AQUARIUM_TEMP+28
 	aquarium_vc_color = "#4287f5"
 
 /obj/item/fish/darkpack/plastetra/Initialize(mapload)
