@@ -185,7 +185,9 @@ export const SkillCheck = () => {
       }
 
       if (inZone) {
-        new Audio(resolveAsset('skillcheck_good.ogg')).play();
+        const audio = new Audio(resolveAsset('skillcheck_good.ogg'));
+        audio.volume = 0.33;
+        audio.play();
       }
       act('skill_check_result', { result: inZone ? 'pass' : 'fail' });
     };
