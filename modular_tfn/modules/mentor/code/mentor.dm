@@ -9,7 +9,6 @@ GLOBAL_PROTECT(mentor_href_token)
 	var/client/owner // the actual mentor, client type
 	var/target // the mentor's ckey
 	var/href_token // href token for mentor commands, uses the same token used by admins.
-	var/mob/following
 
 /datum/mentors/New(ckey)
 	if(!ckey)

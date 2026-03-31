@@ -17,19 +17,6 @@
 			cmd_mentor_pm(href_list["mentor_msg"],null)
 		return TRUE
 
-	//Mentor Follow
-	if(href_list["mentor_follow"])
-		var/mob/living/M = locate(href_list["mentor_follow"])
-
-		if(istype(M))
-			mentor_follow(M)
-		return TRUE
-
-	if(href_list["mentor_unfollow"])
-		if(mentor_datum.following)
-			mentor_unfollow()
-		return TRUE
-
 /client/proc/mentor_datum_set()
 	mentor_datum = GLOB.mentor_datums[ckey]
 	if(!mentor_datum && is_admin(src)) // admin with no mentor datum? let's fix that

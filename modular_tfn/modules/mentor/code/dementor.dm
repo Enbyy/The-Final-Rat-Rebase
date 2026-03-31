@@ -4,8 +4,6 @@
 	if(!is_mentor())
 		return
 	remove_mentor_verbs()
-	if (/client/proc/mentor_unfollow in verbs)
-		mentor_unfollow()
 	GLOB.mentors -= src
 	to_chat(src, span_interface("You are no longer a mentor."))
 	log_mentor("MENTOR: [src] dementored.")

@@ -7768,7 +7768,6 @@
 #include "modular_tfn\modules\mentor\code\_globalvars.dm"
 #include "modular_tfn\modules\mentor\code\client_procs.dm"
 #include "modular_tfn\modules\mentor\code\dementor.dm"
-#include "modular_tfn\modules\mentor\code\follow.dm"
 #include "modular_tfn\modules\mentor\code\logging.dm"
 #include "modular_tfn\modules\mentor\code\mentor.dm"
 #include "modular_tfn\modules\mentor\code\mentor_verbs.dm"

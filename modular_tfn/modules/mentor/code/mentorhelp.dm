@@ -96,7 +96,8 @@
 	else
 		. += "*no key*"
 
+	/*
 	if(include_follow)
 		. += " (<a href='byond://?_src_=mentor;mentor_follow=[REF(target_mob)];[MentorHrefToken(TRUE)]'>F</a>)"
-
+	*/
 	return .
