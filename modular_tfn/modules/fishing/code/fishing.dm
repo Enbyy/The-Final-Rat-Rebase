@@ -909,6 +909,8 @@
 	stable_population = 11
 	average_size = 6
 	average_weight = 55
+	sprite_width = 3
+	sprite_height = 3
 	dedicated_in_aquarium_icon_state = "fryish_small"
 	aquarium_vc_color = "#c8882c"
 
@@ -924,6 +926,8 @@
 	stable_population = 10
 	average_size = 8
 	average_weight = 70
+	sprite_width = 5
+	sprite_height = 3
 	dedicated_in_aquarium_icon_state = "fritterish_small"
 	aquarium_vc_color = "#c8a050"
 
@@ -939,6 +943,8 @@
 	stable_population = 2
 	average_size = 200
 	average_weight = 1500
+	sprite_width = 12
+	sprite_height = 4
 	dedicated_in_aquarium_icon_state = "nessiefish_small"
 	aquarium_vc_color = "#487848"
 
@@ -954,6 +960,8 @@
 	stable_population = 2
 	average_size = 180
 	average_weight = 1400
+	sprite_width = 12
+	sprite_height = 7
 	dedicated_in_aquarium_icon_state = "mastodon_small"
 	aquarium_vc_color = "#787060"
 
