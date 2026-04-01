@@ -216,8 +216,10 @@
 	var/mob/parent_mob = parent
 	if(get_kindred_splat(parent_mob) && output_color)
 		var/mob/living/carbon/human/lick = parent_mob
-		var/datum/st_stat/morality_path/morality/stat_morality = lick.storyteller_stats[STAT_MORALITY]
-		if(!stat_morality?.morality_path.alignment == MORALITY_HUMANITY) // non-humanity licks have standard kindred auras that give them away
+		// TFN EDIT START - non-humanity/low humanity licks have desaturated auras
+		var/datum/st_stat/morality_path/morality/stat_morality = lick?.storyteller_stats[STAT_MORALITY]
+		if((stat_morality?.morality_path?.alignment != MORALITY_HUMANITY || stat_morality?.get_score() < 5) && !HAS_TRAIT(parent_mob, TRAIT_BLUSH_OF_HEALTH))
+		// TFN EDIT END
 			var/list/hsv_color_value = rgb2hsv(output_color)
 			hsv_color_value[2] = hsv_color_value[2] * 0.7 // Reduce saturation for kindred
 			aura_appearance.color = hsv2rgb(hsv_color_value)
