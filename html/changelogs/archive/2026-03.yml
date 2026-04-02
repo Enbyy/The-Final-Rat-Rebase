@@ -464,8 +464,6 @@
   - rscadd: Melpominee
   - code_imp: Moves Emotion to /mob
   - code_imp: Proc to convert Emotion to a quality (i.e. Afraid -> fear)
-  LucifersCoils:
-  - spellcheck: Renamed Metis to Crinos
   Marshmellow105:
   - map: Ports the new DORA
   - bugfix: endron bouncers now wear the correct uniforms, camarilla bouncers now
