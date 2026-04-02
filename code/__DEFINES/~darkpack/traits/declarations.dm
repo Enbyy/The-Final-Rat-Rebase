@@ -161,7 +161,4 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_HORRIFIC_APPEARANCE "horrific_appearance"
 #define TRAIT_STILLNESS_OF_DEATH "stillness_of_death"
 
-// END DARKPACK TRAIT DEFINES
-
-// TFN ADDITIONS BELOW THIS LINE
-#define TRAIT_EAT_FOOD "eat_food"
+// END TRAIT DEFINES
