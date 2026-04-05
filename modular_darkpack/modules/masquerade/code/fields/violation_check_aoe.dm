@@ -25,6 +25,9 @@
 		return
 	if(entered == host)
 		return
+	for(var/datum/weakref/mob_weakref as anything in tracking_mobs)
+		if(mob_weakref.resolve() == entered)
+			return
 	tracking_mobs |= WEAKREF(entered)
 	RegisterSignal(entered, COMSIG_MASQUERADE_VIOLATION, PROC_REF(violation_observer_breach_callback))
 	if(iscarbon(entered))
