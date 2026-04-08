@@ -165,25 +165,27 @@
 	image_state = ""
 
 /obj/effect/client_image_holder/hallucination/your_mother/malk/Initialize(mapload, list/mobs_which_see_us, datum/hallucination/parent)
-	var/mob/living/carbon/human/hallucinator = parent.hallucinator
-	var/outfits = subtypesof(/datum/outfit/mafia)
-	if (ishuman(hallucinator))
+	. = ..()
+	var/mob/living/hallucinator = parent.hallucinator
+	if(ishuman(hallucinator))
 		var/mob/living/carbon/dna_haver = hallucinator
-		image_icon = image(get_dynamic_human_appearance(pick(outfits), dna_haver.dna.species.type))
-		return ..()
-
+		image_icon = image(get_dynamic_human_appearance(/datum/outfit/mafia/gothic, dna_haver.dna.species.type))
+		return
 	image_icon = hallucinator.icon
 	image_state = hallucinator.icon_state
 	image_pixel_x = hallucinator.pixel_x
 	image_pixel_y = hallucinator.pixel_y
-	return ..()
 
 // the random hallucination type will store overrides and extensions of basegame hallucinations, as well as untouched basegame hallucinations like eyes_in_the_dark
 /datum/hallucination/malk/random
-	var/list/hallucinations = list(/datum/hallucination/eyes_in_dark, /datum/hallucination/your_mother/malk, /datum/hallucination/blood_flow/malk)
+
+/datum/hallucination/malk/random/proc/get_random_malk_hallucination()
+	var/static/list/uncommon_hallucinations = list(/datum/hallucination/your_mother/malk, /datum/hallucination/blood_flow/malk)
+	var/static/list/common_hallucinations = list(/datum/hallucination/eyes_in_dark) + subtypesof(/datum/hallucination/body)
+	return prob(5) ? pick(uncommon_hallucinations) : pick(common_hallucinations)
 
 /datum/hallucination/malk/random/start()
-	hallucinator.cause_hallucination(pick(hallucinations), "malkavian derangement")
+	hallucinator.cause_hallucination(get_random_malk_hallucination(), "malkavian derangement",)
 	return TRUE
 
 // 'Blood Flow'
