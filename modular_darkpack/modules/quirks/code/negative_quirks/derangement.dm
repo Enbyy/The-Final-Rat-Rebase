@@ -204,4 +204,9 @@
 
 	to_chat(hallucinator, span_warning("The blood doesn't stop flowing from my injury, yet it doesn't seem to hurt..."))
 
+// TFN EDIT START - override this to stop turning people into ice cubes
+/datum/hallucination/body/weird/freezer/freeze_player()
+	if(QDELETED(src))
+		return
+// TFN EDIT END
 #undef FLOOR_DISAPPEAR
