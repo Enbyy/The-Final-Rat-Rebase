@@ -97,9 +97,9 @@
 /obj/machinery/radio_tranceiver/police/proc/crime_reported(datum/source, crime, turf/location)
 	SIGNAL_HANDLER
 
-	// TFN EDIT START - no more deathmatch gunshots
+	// TFN EDIT START - avoid offmap locations sending crime alerts
 	var/area/crime_area = get_area(location)
-	if(crime_area?.area_flags & QUIET_LOGS)
+	if(!istype(crime_area, /area/vtm))
 		return
 	// TFN EDIT END
 
