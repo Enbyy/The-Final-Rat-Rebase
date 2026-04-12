@@ -562,6 +562,18 @@
 /mob/living/carbon/human/npc/guard,
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
+"ahi" = (
+/obj/effect/turf_decal/siding/grey,
+/obj/effect/turf_decal/siding/grey,
+/obj/effect/turf_decal/siding/grey{
+	dir = 4
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/strip)
 "ahm" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -49528,6 +49540,12 @@
 	},
 /turf/open/floor/wood/herring,
 /area/vtm/interior/giovanni)
+"mTf" = (
+/obj/structure/pole{
+	pixel_w = -16
+	},
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/strip)
 "mTg" = (
 /turf/open/floor/plating/concrete,
 /area/vtm)
@@ -66381,6 +66399,9 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/city/circled,
 /area/vtm/interior)
+"rgX" = (
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/strip)
 "rhc" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/misc/dirt,
@@ -66592,6 +66613,17 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church)
+"rjU" = (
+/obj/effect/turf_decal/siding/grey,
+/obj/effect/turf_decal/siding/grey{
+	dir = 8
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/strip)
 "rjV" = (
 /obj/structure/barrels/rand,
 /turf/open/floor/plating/rough,
@@ -165212,7 +165244,7 @@ gsS
 gnp
 xZE
 bGT
-nlY
+eTp
 tra
 vmn
 vmn
@@ -165415,9 +165447,9 @@ gnp
 gnp
 gnp
 oSE
-tOC
+rgX
+rjU
 eTp
-tra
 ibi
 uue
 uue
@@ -165619,9 +165651,9 @@ dhH
 eob
 rsd
 svm
+mTf
 tOC
 nlY
-tra
 vmn
 uue
 vmn
@@ -165823,9 +165855,9 @@ dhH
 eob
 tra
 hqW
-tOC
+rgX
+ahi
 eTp
-tra
 vmn
 uue
 uue
@@ -166028,7 +166060,7 @@ hli
 tra
 kuz
 uOO
-nlY
+eTp
 tra
 vmn
 vmn
