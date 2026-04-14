@@ -9476,6 +9476,7 @@
 /obj/structure/chair/office/darkpack/green,
 /obj/effect/landmark/ert_spawn,
 /obj/structure/cable,
+"PQ" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/movie_theatre)
