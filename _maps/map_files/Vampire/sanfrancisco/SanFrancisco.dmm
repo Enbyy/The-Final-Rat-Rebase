@@ -21023,11 +21023,21 @@
 /area/vtm)
 "fwX" = (
 /obj/structure/table/wood,
-/obj/effect/spawner/random/food_or_drink/seed_flowers,
-/obj/effect/spawner/random/food_or_drink/seed_flowers,
-/obj/effect/spawner/random/food_or_drink/seed_flowers,
-/obj/structure/glowshroom/single,
-/turf/open/misc/grass,
+/obj/item/clothing/suit/vampire/bahari,
+/obj/item/clothing/suit/vampire/bahari,
+/obj/item/vampirebook/lilith,
+/obj/item/vampirebook/lilith{
+	pixel_y = 8;
+	pixel_x = 5
+	},
+/obj/item/clothing/head/vampire/bahari_mask,
+/obj/item/clothing/head/vampire/bahari_mask,
+/obj/item/card/bahari,
+/obj/item/clothing/suit/vampire/bahari,
+/obj/item/card/bahari,
+/obj/item/card/bahari,
+/obj/item/clothing/head/vampire/bahari_mask,
+/turf/open/misc/dirt,
 /area/vtm/interior/caves)
 "fwZ" = (
 /obj/structure/curtain/bounty,
@@ -29510,12 +29520,9 @@
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/giovanni/courtyard)
 "hKd" = (
-/obj/item/reagent_containers/cup/watering_can/metal{
-	pixel_y = 4;
-	pixel_x = 4
-	},
-/obj/item/reagent_containers/cup/watering_can/metal,
-/turf/open/misc/dirt,
+/obj/structure/glowshroom/single,
+/obj/structure/flora/rock/pile/darkpack,
+/turf/open/misc/grass,
 /area/vtm/interior/caves)
 "hKk" = (
 /turf/open/openspace,
@@ -63562,17 +63569,15 @@
 /area/vtm/interior/endron_facility)
 "qsb" = (
 /obj/structure/table/wood,
-/obj/item/clothing/suit/vampire/bahari,
-/obj/item/clothing/suit/vampire/bahari,
-/obj/item/vampirebook/lilith,
-/obj/item/vampirebook/lilith{
-	pixel_y = 8;
-	pixel_x = 5
+/obj/effect/spawner/random/food_or_drink/seed_flowers,
+/obj/effect/spawner/random/food_or_drink/seed_flowers,
+/obj/effect/spawner/random/food_or_drink/seed_flowers,
+/obj/structure/glowshroom/single,
+/obj/item/reagent_containers/cup/watering_can/metal{
+	pixel_y = 4;
+	pixel_x = 4
 	},
-/obj/item/clothing/head/vampire/bahari_mask,
-/obj/item/clothing/head/vampire/bahari_mask,
-/obj/item/card/bahari,
-/obj/item/card/bahari,
+/obj/item/reagent_containers/cup/watering_can/metal,
 /turf/open/misc/grass,
 /area/vtm/interior/caves)
 "qsn" = (
@@ -76747,10 +76752,9 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "tQK" = (
-/obj/machinery/hydroponics/simple/wooden,
-/obj/structure/glowshroom/single,
-/turf/open/misc/grass,
-/area/vtm/interior/caves)
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/closed/wall/vampwall/rock,
+/area/vtm/outside/pacificheights/forest)
 "tQY" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -82470,8 +82474,7 @@
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/chantry/basement)
 "vuy" = (
-/obj/structure/altar,
-/turf/open/misc/grass,
+/turf/open/misc/grass/random/rocks,
 /area/vtm/interior/caves)
 "vuG" = (
 /obj/machinery/light/small/directional/north,
@@ -89421,6 +89424,10 @@
 /obj/structure/platform/lowwall/painted/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"xks" = (
+/obj/structure/altar,
+/turf/open/misc/dirt,
+/area/vtm/interior/caves)
 "xkv" = (
 /obj/effect/decal/graffiti,
 /obj/structure/table,
@@ -134911,10 +134918,10 @@ qEu
 qqR
 qqR
 qqR
-pKr
+vuy
 fwX
 qsb
-aqb
+pKr
 aqb
 uvs
 uvs
@@ -135114,10 +135121,10 @@ qqR
 oiE
 qqR
 qqR
-qqR
+goJ
 lJP
 lJP
-bcT
+lJP
 lJP
 aqb
 aqb
@@ -135316,12 +135323,12 @@ vIp
 vIp
 aqb
 aqb
-nij
-lJP
-lJP
-lJP
 vuy
-slV
+lJP
+lJP
+lJP
+bcT
+hKd
 lJP
 oMm
 aqb
@@ -135521,13 +135528,13 @@ vIp
 vIp
 aqb
 nij
-nij
-goJ
-qqR
 lJP
-uJh
 lJP
-tQK
+xks
+lJP
+lJP
+lJP
+iVt
 aqb
 uvs
 uvs
@@ -135726,9 +135733,9 @@ vIp
 aqb
 nij
 nij
-nij
+goJ
 lJP
-lJP
+uJh
 lJP
 hKd
 iVt
@@ -135927,14 +135934,14 @@ nqH
 efN
 efN
 vIp
-vIp
 aqb
 nij
 nij
 nij
-tQK
-iVt
-iVt
+lJP
+goJ
+lJP
+lJP
 aqb
 aqb
 uvs
@@ -136130,17 +136137,17 @@ lap
 wEr
 nqH
 nqH
-nqH
+tQK
 vIp
-vIp
+aqb
+nij
+nij
+nij
+iVt
+iVt
+iVt
 aqb
 aqb
-aqb
-aqb
-aqb
-aqb
-aqb
-uvs
 uvs
 uvs
 uvs
@@ -136335,15 +136342,15 @@ efN
 efN
 efN
 efN
-jHC
 vIp
-uvs
-uvs
-uvs
-uvs
-uvs
-uvs
-uvs
+aqb
+aqb
+aqb
+aqb
+aqb
+aqb
+aqb
+aqb
 uvs
 uvs
 uvs
@@ -136539,7 +136546,7 @@ nqH
 efN
 nqH
 nqH
-nqH
+gWg
 vIp
 uvs
 uvs
