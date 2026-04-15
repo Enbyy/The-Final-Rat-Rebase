@@ -563,14 +563,9 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
 "ahi" = (
-/obj/effect/turf_decal/siding/grey,
-/obj/effect/turf_decal/siding/grey,
-/obj/effect/turf_decal/siding/grey{
-	dir = 4
-	},
-/obj/structure/railing,
+/obj/effect/turf_decal/siding/grey/inner_corner,
 /obj/structure/railing{
-	dir = 4
+	dir = 6
 	},
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/strip)
@@ -4941,6 +4936,11 @@
 /obj/structure/flora/bush/sunny/style_random,
 /turf/open/misc/grass/nosmooth,
 /area/vtm)
+"boy" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/siding/grey/corner,
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/strip)
 "boB" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating/sidewalk/poor,
@@ -66534,6 +66534,12 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior)
 "rgX" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/grey/corner{
+	dir = 8
+	},
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/strip)
 "rhc" = (
@@ -66747,17 +66753,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church)
-"rjU" = (
-/obj/effect/turf_decal/siding/grey,
-/obj/effect/turf_decal/siding/grey{
-	dir = 8
-	},
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/city/plating_stone,
-/area/vtm/interior/strip)
 "rjV" = (
 /obj/structure/barrels/rand,
 /turf/open/floor/plating/rough,
@@ -165616,7 +165611,7 @@ gnp
 gnp
 oSE
 rgX
-rjU
+bGT
 eTp
 ibi
 uue
@@ -166023,7 +166018,7 @@ dhH
 eob
 tra
 hqW
-rgX
+boy
 ahi
 eTp
 vmn
