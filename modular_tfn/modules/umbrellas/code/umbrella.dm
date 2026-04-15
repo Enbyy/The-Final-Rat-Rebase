@@ -1,3 +1,5 @@
+// sprites by Constellado, MapleStation
+// icons ported from https://github.com/Bubberstation/Bubberstation/ @ modular_zubbers/code/modules/rimpoint_newfeatures/code/umbrella.dm
 /obj/item/umbrella
 	name = "umbrella"
 	desc = "A foldable umbrella."
@@ -6,6 +8,11 @@
 	lefthand_file = 'modular_tfn/modules/umbrellas/icons/umbrella_inhand_l.dmi'
 	righthand_file = 'modular_tfn/modules/umbrellas/icons/umbrella_inhand_r.dmi'
 	w_class = WEIGHT_CLASS_TINY
+	greyscale_config = /datum/greyscale_config/umbrella
+	greyscale_config_inhand_left = /datum/greyscale_config/umbrella_inhand_left
+	greyscale_config_inhand_right = /datum/greyscale_config/umbrella_inhand_right
+	greyscale_colors = "#808080"
+	flags_1 = IS_PLAYER_COLORABLE_1
 	var/open = FALSE
 
 /obj/item/umbrella/attack_self(mob/user)
@@ -33,11 +40,8 @@
 /obj/item/umbrella/parasol
 	name = "parasol"
 	desc = "A foldable parasol."
-	icon = 'modular_tfn/modules/umbrellas/icons/umbrella.dmi'
-	icon_state = "umbrella_closed"
-	lefthand_file = 'modular_tfn/modules/umbrellas/icons/umbrella_inhand_l.dmi'
-	righthand_file = 'modular_tfn/modules/umbrellas/icons/umbrella_inhand_r.dmi'
-	w_class = WEIGHT_CLASS_TINY
+	icon_state = "parasol_closed"
+	greyscale_config = /datum/greyscale_config/umbrella/parasol
 
 /obj/item/umbrella/parasol/toggle_open(mob/user)
 	open = !open
