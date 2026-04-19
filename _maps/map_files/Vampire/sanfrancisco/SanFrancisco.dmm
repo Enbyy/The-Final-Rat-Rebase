@@ -45836,6 +45836,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/ghetto)
+"lCo" = (
+/obj/structure/vampipe{
+	icon_state = "piping40"
+	},
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "lCp" = (
 /obj/structure/railing{
 	dir = 9
@@ -66880,9 +66887,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/techshop)
 "qJW" = (
-/obj/structure/vampipe{
-	icon_state = "piping31"
-	},
 /obj/machinery/light/small/red/directional/south,
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -128466,7 +128470,7 @@ seh
 seh
 mun
 hge
-kRM
+hge
 tuX
 uvs
 uvs
@@ -128670,7 +128674,7 @@ fZF
 fZF
 fZF
 qaV
-jcI
+fZF
 tuX
 uvs
 uvs
@@ -128874,7 +128878,7 @@ gpd
 gpd
 xcQ
 hge
-eOS
+vFf
 sMK
 ucp
 ucp
@@ -129078,7 +129082,7 @@ tuX
 tuX
 tuX
 bhK
-eOS
+vFf
 vjc
 cnp
 xaf
@@ -129282,7 +129286,7 @@ uvs
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 idm
 rJH
@@ -129486,7 +129490,7 @@ hPO
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 gLj
 rJH
@@ -129690,7 +129694,7 @@ nUW
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 rJH
 rJH
@@ -129894,7 +129898,7 @@ hPO
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 rJH
 cuI
@@ -130098,7 +130102,7 @@ lqr
 tuX
 tuX
 qLD
-eOS
+vFf
 vjc
 rJH
 nbA
@@ -130302,7 +130306,7 @@ hwz
 lqr
 tuX
 aej
-eOS
+vFf
 vjc
 gLj
 rJH
@@ -130506,7 +130510,7 @@ cwS
 lqr
 tuX
 aej
-eOS
+vFf
 vjc
 rJH
 rJH
@@ -130710,7 +130714,7 @@ cwS
 cTz
 tuX
 aej
-eOS
+vFf
 vjc
 kPE
 xtZ
@@ -130914,7 +130918,7 @@ cwS
 cTz
 tuX
 aej
-eOS
+vFf
 sMK
 ucp
 ucp
@@ -131118,7 +131122,7 @@ cwS
 cTz
 tuX
 aej
-eOS
+vFf
 neA
 pbH
 pSm
@@ -131322,7 +131326,7 @@ cwS
 lqr
 tuX
 aej
-eOS
+vFf
 xxC
 dnn
 iOf
@@ -131526,7 +131530,7 @@ cyW
 lqr
 tuX
 aej
-eOS
+vFf
 neA
 peM
 nZJ
@@ -131730,7 +131734,7 @@ hPO
 hPO
 tuX
 aej
-eOS
+vFf
 wZU
 aES
 aol
@@ -131934,7 +131938,7 @@ uvs
 uvs
 tuX
 wBr
-eOS
+vFf
 neA
 doj
 aol
@@ -132138,7 +132142,7 @@ uvs
 uvs
 tuX
 aej
-eOS
+vFf
 wZU
 doj
 aol
@@ -132342,7 +132346,7 @@ uvs
 uvs
 tuX
 pyq
-eOS
+vFf
 neA
 spD
 aol
@@ -132750,8 +132754,8 @@ seh
 seh
 mun
 hge
-xBH
-gVZ
+vFf
+lCo
 seh
 seh
 seh
