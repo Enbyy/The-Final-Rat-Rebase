@@ -91229,6 +91229,10 @@
 /obj/item/smartphone,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/techshop)
+"wZg" = (
+/obj/structure/sign/city/crown_blue/directional/north,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/outside/financialdistrict)
 "wZl" = (
 /obj/effect/decal/painting{
 	pixel_y = 32
@@ -173924,7 +173928,7 @@ pSt
 vZm
 vZm
 ucp
-lEF
+wZg
 jBa
 jcZ
 jcZ
