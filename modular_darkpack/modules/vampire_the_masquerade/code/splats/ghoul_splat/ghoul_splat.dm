@@ -37,6 +37,7 @@
 				continue
 			owner.give_st_power(discipline, 1)
 
+
 			if(ispath(discipline, /datum/discipline/dementation))
 				owner.add_quirk(/datum/quirk/derangement)
 
