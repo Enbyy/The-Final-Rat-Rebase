@@ -118,6 +118,10 @@
 	icon_type = "cur_fancy"
 	icon_state = "cur_fancy-open"
 
+/obj/structure/curtain/cloth/fancy/blue
+	icon_type = "cur_fancy_blue"
+	icon_state = "cur_fancy_blue-open"
+
 /obj/structure/curtain/cloth/fancy/mechanical
 	var/id = null
 
