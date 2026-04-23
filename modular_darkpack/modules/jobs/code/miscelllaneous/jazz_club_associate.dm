@@ -31,7 +31,7 @@
 
 /datum/outfit/job/vampire/jazz_club_associate
 	name = "Jazz Club Associate"
-	jobtype = /datum/job/vampire/citizen
+	jobtype = /datum/job/vampire/jazz_club_associate
 	l_pocket = /obj/item/smartphone
 	r_pocket = /obj/item/vamp/keys/jazz
 	backpack_contents = list(/obj/item/card/credit=1)
