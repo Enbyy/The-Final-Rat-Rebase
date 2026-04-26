@@ -7247,7 +7247,6 @@
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\club_worker.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\graveyard_keeper.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\janitor.dm"
-#include "modular_darkpack\modules\jobs\code\miscelllaneous\jazz_club_associate.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\priest.dm"
 #include "modular_darkpack\modules\jobs\code\miscelllaneous\taxi.dm"
 #include "modular_darkpack\modules\jobs\code\pentex\affairs.dm"
