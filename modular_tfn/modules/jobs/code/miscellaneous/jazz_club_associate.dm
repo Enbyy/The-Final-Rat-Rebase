@@ -1,3 +1,4 @@
+//TFN EDIT ADDITION - PR#223 Crown Blue Jazz Club OverHaul
 /datum/job/vampire/jazz_club_associate
 	title = JOB_JAZZ_CLUB_ASSOCIATE
 	faction = FACTION_CITY

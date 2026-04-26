@@ -119,18 +119,19 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/city/strip_club, 32)
 	. = ..()
 	set_light(3, 2, "#8e509e")
 
-// TFN EDIT ADDITION START - Jazz Club Rework
+//TFN EDIT ADDITION START - Crown Blue Jazz Club OverHaul
 /obj/structure/sign/city/crown_blue
 	name = "Crown Blue Sign"
-	desc = "It says CB, and it has a crown and saxaphone in neon... fancy."
-	icon = 'modular_darkpack/modules/deprecated/icons/48x48.dmi'
-	icon_state = "crownblue"
+	desc = "It says CB, and it has a crown and saxaphone in Neon... Fancy."
+	icon = 'modular_tf/modules/signs/icon/crown_blues_sign.dmi'
+	icon_state = "crownblues"
 	layer = ABOVE_ALL_MOB_LAYER
 	anchored = TRUE
 	pixel_w = -8
 	//pixel_z = 32
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/city/crown_blue, 32)
+//TFN EDIT ADDITION End - Crown Blue Jazz Club OverHaul
 
 /obj/structure/sign/city/crown_blue/Initialize(mapload)
 	. = ..()

@@ -118,11 +118,12 @@
 	icon_type = "cur_fancy"
 	icon_state = "cur_fancy-open"
 
-// TFN EDIT START - Jazz Club Rework
+//TFN EDIT ADDITION START - Crown Blue Jazz Club OverHaul
 /obj/structure/curtain/cloth/fancy/blue
 	icon_type = "cur_fancy_blue"
 	icon_state = "cur_fancy_blue-open"
-// TFN EDIT END - Jazz Club Rework
+//TFN EDIT ADDITION End - Crown Blue Jazz Club OverHaul
+
 /obj/structure/curtain/cloth/fancy/mechanical
 	var/id = null
 
