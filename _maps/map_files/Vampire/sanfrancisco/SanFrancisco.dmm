@@ -45836,6 +45836,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/ghetto)
+"lCo" = (
+/obj/structure/vampipe{
+	icon_state = "piping40"
+	},
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "lCp" = (
 /obj/structure/railing{
 	dir = 9
@@ -62822,6 +62829,14 @@
 /obj/effect/spawner/random/food_or_drink/seed_flowers,
 /obj/effect/spawner/random/food_or_drink/seed_flowers,
 /obj/effect/spawner/random/food_or_drink/seed_flowers,
+/obj/item/reagent_containers/cup/jerrycan/robustharvest{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/cup/jerrycan/eznutriment{
+	pixel_y = 2;
+	pixel_x = -5
+	},
 /turf/open/misc/dirt,
 /area/vtm/interior/caves)
 "pKA" = (
@@ -65450,6 +65465,9 @@
 /obj/item/card/bahari,
 /obj/item/clothing/head/vampire/bahari_mask,
 /obj/structure/glowshroom/single,
+/obj/item/clothing/suit/vampire/bahari,
+/obj/item/clothing/head/vampire/bahari_mask,
+/obj/item/card/bahari,
 /turf/open/misc/grass,
 /area/vtm/interior/caves)
 "qsn" = (
@@ -66880,9 +66898,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/techshop)
 "qJW" = (
-/obj/structure/vampipe{
-	icon_state = "piping31"
-	},
 /obj/machinery/light/small/red/directional/south,
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -86445,6 +86460,11 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/clinic/haven)
+"vPk" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/glowshroom/single,
+/turf/open/misc/grass,
+/area/vtm/interior/caves)
 "vPv" = (
 /obj/structure/railing{
 	dir = 5
@@ -90499,6 +90519,25 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer/nosferatu_warren)
+"wOn" = (
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 6
+	},
+/obj/structure/water_source/puddle,
+/obj/item/flashlight/flare/candle/infinite{
+	anchored = 1;
+	pixel_x = 11;
+	pixel_y = 8
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	anchored = 1;
+	pixel_y = 15;
+	pixel_x = 7
+	},
+/turf/open/floor/plating/rough/cave{
+	icon_state = "stone8"
+	},
+/area/vtm/interior/caves)
 "wOr" = (
 /obj/structure/fire_barrel,
 /turf/open/floor/plating/sidewalkalt,
@@ -128466,7 +128505,7 @@ seh
 seh
 mun
 hge
-kRM
+hge
 tuX
 uvs
 uvs
@@ -128670,7 +128709,7 @@ fZF
 fZF
 fZF
 qaV
-jcI
+fZF
 tuX
 uvs
 uvs
@@ -128874,7 +128913,7 @@ gpd
 gpd
 xcQ
 hge
-eOS
+vFf
 sMK
 ucp
 ucp
@@ -129078,7 +129117,7 @@ tuX
 tuX
 tuX
 bhK
-eOS
+vFf
 vjc
 cnp
 xaf
@@ -129282,7 +129321,7 @@ uvs
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 idm
 rJH
@@ -129486,7 +129525,7 @@ hPO
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 gLj
 rJH
@@ -129690,7 +129729,7 @@ nUW
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 rJH
 rJH
@@ -129894,7 +129933,7 @@ hPO
 tuX
 kOa
 hge
-eOS
+vFf
 vjc
 rJH
 cuI
@@ -130098,7 +130137,7 @@ lqr
 tuX
 tuX
 qLD
-eOS
+vFf
 vjc
 rJH
 nbA
@@ -130302,7 +130341,7 @@ hwz
 lqr
 tuX
 aej
-eOS
+vFf
 vjc
 gLj
 rJH
@@ -130506,7 +130545,7 @@ cwS
 lqr
 tuX
 aej
-eOS
+vFf
 vjc
 rJH
 rJH
@@ -130710,7 +130749,7 @@ cwS
 cTz
 tuX
 aej
-eOS
+vFf
 vjc
 kPE
 xtZ
@@ -130914,7 +130953,7 @@ cwS
 cTz
 tuX
 aej
-eOS
+vFf
 sMK
 ucp
 ucp
@@ -131118,7 +131157,7 @@ cwS
 cTz
 tuX
 aej
-eOS
+vFf
 neA
 pbH
 pSm
@@ -131322,7 +131361,7 @@ cwS
 lqr
 tuX
 aej
-eOS
+vFf
 xxC
 dnn
 iOf
@@ -131526,7 +131565,7 @@ cyW
 lqr
 tuX
 aej
-eOS
+vFf
 neA
 peM
 nZJ
@@ -131730,7 +131769,7 @@ hPO
 hPO
 tuX
 aej
-eOS
+vFf
 wZU
 aES
 aol
@@ -131934,7 +131973,7 @@ uvs
 uvs
 tuX
 wBr
-eOS
+vFf
 neA
 doj
 aol
@@ -132138,7 +132177,7 @@ uvs
 uvs
 tuX
 aej
-eOS
+vFf
 wZU
 doj
 aol
@@ -132342,7 +132381,7 @@ uvs
 uvs
 tuX
 pyq
-eOS
+vFf
 neA
 spD
 aol
@@ -132750,8 +132789,8 @@ seh
 seh
 mun
 hge
-xBH
-gVZ
+vFf
+lCo
 seh
 seh
 seh
@@ -138044,7 +138083,7 @@ dIO
 dIO
 aqb
 aqb
-hiQ
+wOn
 gDP
 kiH
 qqR
@@ -138450,8 +138489,8 @@ vIp
 vIp
 vIp
 nqH
-nqH
-nqH
+vIp
+vIp
 vIp
 aqb
 nij
@@ -138656,12 +138695,12 @@ efN
 efN
 efN
 hSP
-efN
+vIp
 aqb
 nij
 nij
-cDR
-goJ
+vPk
+lJP
 lJP
 uJh
 ojq
@@ -138860,7 +138899,7 @@ efN
 efN
 nqH
 efN
-efN
+vIp
 aqb
 nij
 nij
@@ -139064,7 +139103,7 @@ xYv
 lap
 wEr
 nqH
-nqH
+vIp
 aqb
 aqb
 nij
@@ -139268,8 +139307,8 @@ jTm
 nqH
 efN
 efN
-efN
-efN
+vIp
+vIp
 aqb
 aqb
 aqb
@@ -139472,9 +139511,9 @@ jTm
 nqH
 nqH
 efN
-nqH
-nqH
 gWg
+vIp
+vIp
 vIp
 uvs
 uvs
@@ -139676,9 +139715,9 @@ jTm
 efN
 nqH
 efN
-jHC
+efN
 nqH
-nqH
+gWg
 vIp
 vIp
 uvs
@@ -139879,7 +139918,7 @@ jTm
 jTm
 efN
 efN
-efN
+jHC
 efN
 nqH
 aZK
@@ -179659,8 +179698,8 @@ wUD
 vCe
 oyz
 mjT
-mjT
-mjT
+oyz
+uvs
 uvs
 uvs
 uvs
@@ -179865,7 +179904,7 @@ mjT
 mjT
 mjT
 mjT
-mjT
+uvs
 uvs
 uvs
 uvs
@@ -180069,7 +180108,7 @@ mjT
 mjT
 mjT
 mjT
-mjT
+uvs
 uvs
 uvs
 uvs
@@ -180273,8 +180312,8 @@ mjT
 mjT
 mjT
 mjT
-mjT
-mjT
+uvs
+uvs
 uvs
 uvs
 uvs
@@ -180477,9 +180516,9 @@ mjT
 mjT
 mjT
 mjT
-mjT
-mjT
-mjT
+uvs
+uvs
+uvs
 uvs
 uvs
 uvs
@@ -180682,8 +180721,8 @@ mjT
 mjT
 mjT
 mjT
-mjT
-mjT
+uvs
+uvs
 uvs
 uvs
 uvs
