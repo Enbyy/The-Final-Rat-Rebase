@@ -40571,12 +40571,6 @@
 /obj/structure/roadsign/parking,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
-"klp" = (
-/obj/structure/sign/city/crown_blue/directional/north{
-	pixel_x = -16
-	},
-/turf/open/floor/plating/sidewalk/old,
-/area/vtm/outside/financialdistrict)
 "klu" = (
 /obj/structure/chair/stool/bar/darkpack/red,
 /obj/machinery/sprinkler,
@@ -172382,7 +172376,7 @@ kDp
 pcW
 vIy
 ucp
-klp
+lEF
 jBa
 jcZ
 jcZ

@@ -9,3 +9,6 @@
 	//pixel_z = 32
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/city/crown_blue, 32)
+/obj/structure/sign/city/crown_blue/Initialize(mapload)
+	. = ..()
+	set_light(3, 2, "#4d60b6")

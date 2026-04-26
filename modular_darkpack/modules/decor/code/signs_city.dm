@@ -119,11 +119,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/city/strip_club, 32)
 	. = ..()
 	set_light(3, 2, "#8e509e")
 
-/obj/structure/sign/city/crown_blue/Initialize(mapload)
-	. = ..()
-	set_light(3, 2, "#505e9e")
-// TFN EDIT ADDITION END - Jazz Club Rework
-
 /obj/structure/sign/city/cabaret_sign
 	name = "cabaret"
 	desc = "An enticing pair of legs... I wonder what's inside?"
