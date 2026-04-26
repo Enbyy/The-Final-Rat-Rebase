@@ -135,7 +135,7 @@
 #define JOB_DISPLAY_ORDER_GRAVEYARD 16
 #define JOB_DISPLAY_ORDER_STREETJAN 17
 #define JOB_DISPLAY_ORDER_STRIP 18
-//TFN EDIT ADDITION START - - Crown Blue Jazz Club OverHaul
+//TFN EDIT ADDITION START - Crown Blue Jazz Club OverHaul
 #define JOB_DISPLAY_ORDER_JAZZ 19
 #define JOB_DISPLAY_ORDER_TAXI 20
 #define JOB_DISPLAY_ORDER_PRIEST 21
@@ -185,7 +185,7 @@
 #define JOB_DISPLAY_ORDER_PENTEX_SEC 55
 #define JOB_DISPLAY_ORDER_EMPLOYEE 56
 //TFN EDIT ADDITION END - Setite Faction
-//TFN EDIT ADDITION END - - Crown Blue Jazz Club OverHaul
+//TFN EDIT ADDITION END - Crown Blue Jazz Club OverHaul
 //////////////////////////////////////////////////
 
 #define DEPARTMENT_BITFLAG_CITIZEN (1<<0)
