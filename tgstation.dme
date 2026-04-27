@@ -7838,6 +7838,7 @@
 #include "modular_tfn\modules\overwatch\code\overwatch.dm"
 #include "modular_tfn\modules\phones\code\endpost_announce.dm"
 #include "modular_tfn\modules\powers\code\admin_discipline_editor.dm"
+#include "modular_tfn\modules\radios\code\transceiver.dm"
 #include "modular_tfn\modules\random_events\code\gangster.dm"
 #include "modular_tfn\modules\random_events\code\random_events.dm"
 #include "modular_tfn\modules\skillcheck\code\skillcheck.dm"
