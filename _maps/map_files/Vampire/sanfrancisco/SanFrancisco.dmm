@@ -28530,7 +28530,7 @@
 "hpj" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/vampire/blackbag,
-/obj/item/wirecutters/pliers/bad_pliers,
+/obj/item/wirecutters/pliers/bad,
 /obj/item/vampire_stake{
 	pixel_y = -11
 	},
@@ -29193,7 +29193,7 @@
 	pixel_x = 11;
 	pixel_y = -1
 	},
-/obj/item/wirecutters/pliers/bad_pliers,
+/obj/item/wirecutters/pliers/bad,
 /turf/open/floor/wood/rough,
 /area/vtm/interior/police/fed)
 "hxP" = (
