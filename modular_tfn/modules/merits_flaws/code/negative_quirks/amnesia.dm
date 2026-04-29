@@ -1,2 +1,2 @@
 /datum/quirk/darkpack/amnesia
-	darkpack_allowed = FALSE
+	value = 0

@@ -1,2 +1,2 @@
 /datum/quirk/darkpack/vengeful
-	darkpack_allowed = FALSE
+	value = 0
