@@ -4,8 +4,8 @@
 	animate(src, invisibility = OBFUSCATE_INVISIBILITY, time = 0.5 SECONDS)
 	add_obficon()
 	// TFN EDIT START
-	set_hud_image_inactive(HEALTH_HUD) // TFN EDIT ADD
-	set_hud_image_inactive(STATUS_HUD) // TFN EDIT ADD
+	set_hud_image_inactive(HEALTH_HUD)
+	set_hud_image_inactive(STATUS_HUD)
 	// TFN EDIT END
 
 /// Called when [TRAIT_OBFUSCATED] is removed from the mob.
