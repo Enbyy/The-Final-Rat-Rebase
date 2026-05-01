@@ -245,7 +245,7 @@
 		humanc = character //Let's retypecast the var to be human,
 
 	if(humanc) //These procs all expect humans
-		var/chosen_rank = humanc.client?.prefs.alt_job_titles?[rank] || rank // DARKPACK EDIT ADDITION - ALTERNATIVE_JOB_TITLES
+		var/chosen_rank = humanc.client?.prefs.alt_job_titles?[rank] || rank // DARKPACK EDIT ADD - ALTERNATIVE_JOB_TITLES
 		if(SSshuttle.arrivals)
 			SSshuttle.arrivals.QueueAnnounce(humanc, chosen_rank) // DARKPACK EDIT CHANGE - ALTERNATIVE_JOB_TITLES - ORIGINAL: SSshuttle.arrivals.QueueAnnounce(humanc, rank)
 		else
@@ -254,7 +254,7 @@
 
 		humanc.increment_scar_slot()
 		humanc.load_persistent_scars()
-		humanc.load_guestbook() // DARKPACK EDIT ADDITION
+		humanc.load_guestbook() // DARKPACK EDIT ADD
 
 		if(GLOB.curse_of_madness_triggered)
 			give_madness(humanc, GLOB.curse_of_madness_triggered)

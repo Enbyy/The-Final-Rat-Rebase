@@ -343,7 +343,7 @@ frenzy or Rötschreck response is automatic.
 	var/successes
 
 
-//DARKPACK TODO - frenzy. this power requires it
+// DARKPACK TODO - frenzy. this power requires it
 
 /*
 Affected victims fly immediately into frenzy or a
