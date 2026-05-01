@@ -268,7 +268,6 @@
 
 	mob_pixel_w = -16
 	mob_pixel_z = -8
-	mob_size_override = MOB_SIZE_LARGE
 	form_bonus_stats = list(
 		STAT_STRENGTH = 3,
 		STAT_STAMINA = 3,
