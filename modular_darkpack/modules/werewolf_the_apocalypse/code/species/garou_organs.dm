@@ -34,6 +34,7 @@
 /obj/item/bodypart/leg/left/fera
 	unarmed_sharpness = SHARP_EDGED
 	// limb_id = SPECIES_FERA
+	unarmed_sharpness = SHARP_EDGED
 
 /obj/item/bodypart/leg/right/fera
 	unarmed_sharpness = SHARP_EDGED
