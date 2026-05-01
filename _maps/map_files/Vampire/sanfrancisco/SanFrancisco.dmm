@@ -2435,7 +2435,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "aGh" = (
-/mob/living/carbon/human/npc/shop,
+/mob/living/carbon/human/npc/gunstore,
 /obj/effect/decal/rugs,
 /turf/open/floor/city/plating,
 /area/vtm/interior/mall)
@@ -20266,9 +20266,7 @@
 /obj/structure/chair/office/darkpack/green{
 	dir = 8
 	},
-/mob/living/carbon/human/npc/shop{
-	resistant_to_disciplines = 1
-	},
+/mob/living/carbon/human/npc/pharmacystore,
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior)
 "fgi" = (
@@ -37198,7 +37196,7 @@
 /turf/open/misc/grass/nosmooth,
 /area/vtm/interior/bianchiBank)
 "juz" = (
-/mob/living/carbon/human/npc/shop,
+/mob/living/carbon/human/npc/hardwarestore,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/shop)
 "juE" = (
@@ -49119,7 +49117,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior)
 "mtT" = (
-/mob/living/carbon/human/npc/shop,
+/mob/living/carbon/human/npc/campingstore,
 /obj/structure/chair/office/darkpack/green,
 /obj/effect/mapping_helpers/mob_buckler,
 /turf/open/floor/wood/smooth/old,
@@ -50821,7 +50819,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/culture)
 "mQW" = (
-/mob/living/carbon/human/npc/shop,
+/mob/living/carbon/human/npc/pharmacystore,
 /obj/structure/chair/office/darkpack/blue{
 	dir = 1
 	},
