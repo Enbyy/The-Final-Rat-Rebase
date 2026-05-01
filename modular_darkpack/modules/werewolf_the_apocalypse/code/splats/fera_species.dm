@@ -148,7 +148,6 @@
 /datum/species/human/shifter/bestial
 	name = "bestial form"
 	id = SPECIES_FERA_BESTIAL
-	mob_size_override = MOB_SIZE_LARGE
 	form_bonus_stats = list(
 		STAT_STRENGTH = 2,
 		STAT_STAMINA = 2,
