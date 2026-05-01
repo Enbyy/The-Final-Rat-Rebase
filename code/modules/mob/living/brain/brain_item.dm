@@ -723,8 +723,7 @@
 		return found_head || active_hand // If we are a feral biter, return a usable head.
 	if(target.pulledby == owner) // if we're grabbing our target we're beating them to death with our bare hands
 		return active_hand
-	if(target.body_position == LYING_DOWN && owner.usable_legs)
-	if(should_kick(target) && target.body_position == LYING_DOWN && owner.usable_legs) // DARKPACK EDIT CHANGE
+	if(should_kick(target) && target.body_position == LYING_DOWN && owner.usable_legs) // DARKPACK EDIT CHANGE - Original: if(target.body_position == LYING_DOWN && owner.usable_legs)
 		var/obj/item/bodypart/found_bodypart = owner.get_bodypart(IS_LEFT_INDEX(active_hand.held_index) ? BODY_ZONE_L_LEG : BODY_ZONE_R_LEG)
 		return found_bodypart || active_hand
 	return active_hand
