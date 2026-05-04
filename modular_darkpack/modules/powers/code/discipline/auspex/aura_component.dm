@@ -41,6 +41,10 @@
 	RegisterSignal(parent_mob, COMSIG_MOB_EMOTION_CHANGED, PROC_REF(update_emotions))
 	RegisterSignal(parent_mob, COMSIG_MOB_UPDATE_AURA, PROC_REF(update_aura))
 	RegisterSignal(parent_mob, COMSIG_ATOM_EXAMINE, PROC_REF(on_examine))
+	// TFN EDIT START - obfuscation
+	RegisterSignal(parent_mob, SIGNAL_ADDTRAIT(TRAIT_OBFUSCATED), PROC_REF(on_obfuscate))
+	RegisterSignal(parent_mob, SIGNAL_REMOVETRAIT(TRAIT_OBFUSCATED), PROC_REF(on_reveal))
+	// TFN EDIT END
 	if(isnpc(parent_mob))
 		RegisterSignal(parent_mob, COMSIG_COMBAT_MODE_TOGGLED, PROC_REF(on_combat_mode_toggled))
 
@@ -51,7 +55,7 @@
 	var/datum/atom_hud/data/auspex_aura/target_hud = GLOB.huds[DATA_HUD_AUSPEX_AURAS]
 	target_hud.remove_atom_from_hud(parent_mob)
 	examine_message = ""
-	UnregisterSignal(parent_mob, list(COMSIG_MOB_EMOTION_CHANGED, COMSIG_MOB_UPDATE_AURA, COMSIG_ATOM_EXAMINE))
+	UnregisterSignal(parent_mob, list(COMSIG_MOB_EMOTION_CHANGED, COMSIG_MOB_UPDATE_AURA, COMSIG_ATOM_EXAMINE, SIGNAL_ADDTRAIT(TRAIT_OBFUSCATED), SIGNAL_REMOVETRAIT(TRAIT_OBFUSCATED))) // TFN EDIT - obfuscation
 	if(isnpc(parent_mob))
 		UnregisterSignal(parent_mob, list(COMSIG_COMBAT_MODE_TOGGLED))
 	QDEL_NULL(aura_smoke)
@@ -83,6 +87,10 @@
 
 /datum/component/aura/proc/on_examine(datum/source, mob/user, list/examine_list)
 	SIGNAL_HANDLER
+	// TFN EDIT START
+	if(HAS_TRAIT(parent, TRAIT_OBFUSCATED))
+		return
+	// TFN EDIT END
 	var/datum/atom_hud/data/auspex_aura/auspex_hud = GLOB.huds[DATA_HUD_AUSPEX_AURAS]
 	if(!(user in auspex_hud.hud_users_all_z_levels))
 		return
@@ -325,3 +333,15 @@
 	remove_wibbly_filters(holder)
 	apply_wibbly_filters(holder)
 	holder.add_filter("aura_glow", 1, gauss_blur_filter(2))
+
+// TFN EDIT START
+/datum/component/aura/proc/on_obfuscate(datum/source)
+	SIGNAL_HANDLER
+	var/mob/parent_mob = parent
+	parent_mob.set_hud_image_inactive(AUSPEX_AURA_HUD)
+
+/datum/component/aura/proc/on_reveal(datum/source)
+	SIGNAL_HANDLER
+	var/mob/parent_mob = parent
+	parent_mob.set_hud_image_active(AUSPEX_AURA_HUD)
+// TFN EDIT END
