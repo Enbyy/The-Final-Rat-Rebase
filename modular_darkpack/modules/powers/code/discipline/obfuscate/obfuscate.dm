@@ -159,6 +159,10 @@
 	for(var/mob/living/carbon/human/npc/NPC in GLOB.npc_list)
 		if ((NPC.danger_source?.resolve()) == owner)
 			NPC.danger_source = null
+			// TFN EDIT START
+			GLOB.move_manager.stop_looping(NPC)
+			NPC.walktarget = null
+			// TFN EDIT END
 
 	ADD_TRAIT(owner, TRAIT_OBFUSCATED, OBFUSCATE_TRAIT)
 
@@ -285,6 +289,10 @@
 	for(var/mob/living/carbon/human/npc/NPC in GLOB.npc_list)
 		if ((NPC.danger_source?.resolve()) == owner)
 			NPC.danger_source = null
+			// TFN EDIT START
+			GLOB.move_manager.stop_looping(NPC)
+			NPC.walktarget = null
+			// TFN EDIT END
 
 /datum/discipline_power/obfuscate/mask_of_a_thousand_faces/deactivate()
 	. = ..()
@@ -332,6 +340,10 @@
 	for(var/mob/living/carbon/human/npc/NPC in GLOB.npc_list)
 		if ((NPC.danger_source?.resolve()) == owner)
 			NPC.danger_source = null
+			// TFN EDIT START
+			GLOB.move_manager.stop_looping(NPC)
+			NPC.walktarget = null
+			// TFN EDIT END
 	if(prob(1))
 		SEND_SIGNAL(SSmasquerade, COMSIG_PLAYER_MASQUERADE_REINFORCE, owner)
 
@@ -370,6 +382,10 @@
 	for(var/mob/living/carbon/human/npc/NPC in GLOB.npc_list)
 		if ((NPC.danger_source?.resolve()) == owner)
 			NPC.danger_source = null
+			// TFN EDIT START
+			GLOB.move_manager.stop_looping(NPC)
+			NPC.walktarget = null
+			// TFN EDIT END
 	ADD_TRAIT(owner, TRAIT_OBFUSCATED, OBFUSCATE_TRAIT)
 
 /datum/discipline_power/obfuscate/cloak_the_gathering/deactivate()
