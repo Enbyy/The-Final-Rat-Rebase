@@ -17,7 +17,7 @@
 	outfit = /datum/outfit/job/vampire/keeper
 
 	allowed_splats = list(SPLAT_GAROU, SPLAT_KINFOLK)
-//	allowed_tribes = list(TRIBE_GAIA)
+	allowed_tribes = TRIBE_LIST_GAIA
 
 	display_order = JOB_DISPLAY_ORDER_KEEPER
 	department_for_prefs = /datum/job_department/gaia
