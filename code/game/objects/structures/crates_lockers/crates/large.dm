@@ -37,7 +37,7 @@
 		// TFN EDIT START
 		playsound(loc, 'sound/machines/airlock/airlock_alien_prying.ogg', 30, TRUE)
 		balloon_alert(user, "prying open crate...")
-		if(!do_after(user, delay = rand(10, 13) SECONDS, icon = 'icons/obj/tools.dmi', iconstate = "crowbar"))
+		if(!do_after(user, delay = rand(10, 13) SECONDS, target = src, icon = 'icons/obj/tools.dmi', iconstate = "crowbar"))
 			return FALSE
 		// TFN EDIT END
 		if(manifest)
