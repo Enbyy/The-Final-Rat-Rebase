@@ -12,4 +12,8 @@
 
 
 /datum/preference/choiced/garou_fur_color/apply_to_human(mob/living/carbon/human/target, value)
-	target.dna.features[FEATURE_FUR_COLOR] = value
+	var/datum/subsplat/werewolf/tribe/tribe = target.get_our_tribe() || get_fera_tribe(target.client?.prefs?.read_preference(/datum/preference/choiced/subsplat/garou_tribe))
+	if(tribe?.name == TRIBE_BLACK_SPIRAL_DANCERS)
+		target.dna.features[FEATURE_FUR_COLOR] = "spiral[value]"
+	else
+		target.dna.features[FEATURE_FUR_COLOR] = value
