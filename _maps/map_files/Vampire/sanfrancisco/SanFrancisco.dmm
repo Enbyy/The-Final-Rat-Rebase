@@ -35277,7 +35277,7 @@
 	dir = 1
 	},
 /obj/structure/table/wood,
-/obj/item/vtm_artifact/key_of_alamut,
+/obj/item/occult_artifact/vampire/key_of_alamut,
 /obj/item/masquerade_contract,
 /turf/open/floor/carpet,
 /area/vtm/interior/banu/haven)
