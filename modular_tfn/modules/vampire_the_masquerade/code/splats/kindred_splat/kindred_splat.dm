@@ -1,4 +1,3 @@
-// for death related things
 /datum/splat/vampire/kindred/on_kindred_death(mob/living/carbon/human/kindred, gibbed)
 	if(gibbed)
 		return
