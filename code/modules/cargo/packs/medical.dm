@@ -71,7 +71,6 @@
 					/obj/item/ph_booklet,
 					/obj/item/reagent_containers/cup/bottle/ethanol,
 					/obj/item/assembly/igniter/condenser,
-					/obj/item/clothing/glasses/science,
 					/obj/item/storage/box/beakers
 				)
 	crate_name = "DIY Chemistry crate"
