@@ -63191,7 +63191,7 @@
 	pixel_y = 7;
 	pixel_x = 10
 	},
-/turf/open/space/basic,
+/turf/open/floor/city/factory,
 /area/vtm/interior/jazzclub)
 "pHg" = (
 /obj/structure/railing{
