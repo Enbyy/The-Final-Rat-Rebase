@@ -34,5 +34,6 @@
 	jobtype = /datum/job/vampire/jazz_club_associate
 	l_pocket = /obj/item/smartphone
 	r_pocket = /obj/item/vamp/keys/jazz
+	id = /obj/item/card/jazz_club_associate
 	backpack_contents = list(/obj/item/card/credit=1)
 	uses_default_clan_clothes = TRUE
