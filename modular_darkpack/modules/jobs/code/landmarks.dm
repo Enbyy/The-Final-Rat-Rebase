@@ -116,11 +116,17 @@ JOB_START_HELPER(hecata/squadra, JOB_LA_FAMIGLIA)
 
 JOB_START_HELPER(citizen/citizen, JOB_CITIZEN)
 JOB_START_HELPER(citizen/club_worker, JOB_CLUB_WORKER)
-JOB_START_HELPER(citizen/jazz_club_associate, JOB_JAZZ_CLUB_ASSOCIATE) // TFN EDIT ADDITION - Crown Blue Jazz Club OverHaul
 JOB_START_HELPER(citizen/janitor, JOB_STREET_JANITOR)
 JOB_START_HELPER(citizen/priest, JOB_PRIEST)
 JOB_START_HELPER(citizen/taxi, JOB_TAXI_DRIVER)
 JOB_START_HELPER(citizen/graveyardkeeper, JOB_GRAVEYARD_KEEPER)
+
+ // TFN EDIT ADDITION - Crown Blue Jazz Club Overhaul
+/obj/effect/landmark/start/darkpack/sabbat/bishop
+	name = JOB_JAZZ_CLUB_ASSOCIATE
+	icon_state = JOB_JAZZ_CLUB_ASSOCIATE
+	icon = 'modular_tfn/modules/jobs/icons/landmarks.dmi'
+ // TFN EDIT ADDITION END - Crown Blue Jazz Club Overhaul
 
 /* Sabbat */
 /obj/effect/landmark/start/darkpack/sabbat

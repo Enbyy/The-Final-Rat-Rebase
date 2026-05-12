@@ -283,15 +283,6 @@
 	)
 	color = "#ec8f3e"
 
-//TFN EDIT ADDITION START - Crown Blue Jazz Club OverHaul
-/obj/item/vamp/keys/jazz
-	name = "kinda businessy keys"
-	accesslocks = list(
-		LOCKACCESS_JAZZ_CLUB
-	)
-	color = "#e0dca5"
-//TFN EDIT ADDITION START - Crown Blue Jazz Club OverHaul
-
 /obj/item/vamp/keys/ventrue
 	name = "businessy keys"
 	accesslocks = list(
