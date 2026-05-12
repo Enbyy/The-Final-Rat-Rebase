@@ -122,7 +122,7 @@ JOB_START_HELPER(citizen/taxi, JOB_TAXI_DRIVER)
 JOB_START_HELPER(citizen/graveyardkeeper, JOB_GRAVEYARD_KEEPER)
 
  // TFN EDIT ADDITION - Crown Blue Jazz Club Overhaul
-/obj/effect/landmark/start/darkpack/sabbat/bishop
+/obj/effect/landmark/start/darkpack/citizen/jazz_club_associate
 	name = JOB_JAZZ_CLUB_ASSOCIATE
 	icon_state = JOB_JAZZ_CLUB_ASSOCIATE
 	icon = 'modular_tfn/modules/jobs/icons/landmarks.dmi'
