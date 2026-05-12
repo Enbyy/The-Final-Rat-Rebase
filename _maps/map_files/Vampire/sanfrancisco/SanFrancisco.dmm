@@ -16118,7 +16118,6 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/financialdistrict)
 "ebB" = (
-/obj/effect/decal/wallpaper/blue/low,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
 	pixel_y = 8;
 	id = "venOfficeCurtain"
@@ -69659,6 +69658,14 @@
 /obj/item/razor,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/shop)
+"rli" = (
+/obj/structure/platform/lowwall/rich/window,
+/obj/structure/curtain/cloth/fancy/blue{
+	pixel_y = 16
+	},
+/obj/effect/decal/wallpaper/blue/low,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/jazzclub)
 "rll" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/reagent_containers/cup/soda_cans/monkey_energy,
@@ -214520,7 +214527,7 @@ sAW
 wIg
 wIl
 tpI
-qQL
+rli
 amD
 amD
 amD
@@ -214724,7 +214731,7 @@ flU
 hgk
 wIl
 vES
-qQL
+rli
 amD
 amD
 amD
@@ -214928,7 +214935,7 @@ klE
 nTc
 wIl
 tpI
-qQL
+rli
 amD
 amD
 amD
@@ -255539,7 +255546,7 @@ vrl
 lqn
 wIl
 rfb
-nRV
+ucp
 aLa
 pgp
 dLL
@@ -255947,7 +255954,7 @@ beC
 tAg
 wIl
 cZe
-nRV
+ucp
 xXE
 cbl
 mVB
@@ -256335,10 +256342,10 @@ ucp
 ucp
 ucp
 ucp
-ucp
+niy
 hxO
 ucp
-ucp
+niy
 iXo
 ucp
 ucp
@@ -256355,7 +256362,7 @@ xJA
 tAg
 wIl
 cZe
-nRV
+ucp
 xXE
 aLa
 dLL
@@ -256763,7 +256770,7 @@ cxV
 aQV
 wIl
 krz
-nRV
+ucp
 aLa
 aLa
 mVB
@@ -256964,7 +256971,7 @@ ucp
 ucp
 ucp
 ucp
-ucp
+niy
 nJO
 ucp
 ucp
