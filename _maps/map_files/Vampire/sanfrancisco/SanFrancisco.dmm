@@ -6630,6 +6630,24 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
+"bHS" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/item/plate/small{
+	pixel_y = 0;
+	pixel_x = -5
+	},
+/obj/item/plate/small{
+	pixel_y = 9;
+	pixel_x = 5
+	},
+/obj/effect/turf_decal/siding/wood/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/light{
+	dir = 8
+	},
+/turf/open/floor/wood/ornate,
+/area/vtm)
 "bHX" = (
 /obj/structure/table/wood/fancy/green,
 /obj/machinery/button/curtain{
@@ -13168,6 +13186,17 @@
 	},
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/giovanni/courtyard)
+"dpH" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/grey/end{
+	dir = 1
+	},
+/obj/structure/hedge,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/plating/granite/black,
+/area/vtm)
 "dpI" = (
 /obj/effect/turf_decal/siding/grey,
 /obj/structure/bodycontainer/morgue{
@@ -23793,25 +23822,15 @@
 	},
 /area/vtm/interior/police/fed)
 "fWF" = (
-/obj/structure/table/wood/fancy/royalblue,
-/obj/item/plate/small{
-	pixel_y = 0;
-	pixel_x = -5
-	},
-/obj/item/plate/small{
-	pixel_y = 9;
-	pixel_x = 5
-	},
-/obj/effect/turf_decal/siding/wood/light{
+/obj/effect/turf_decal/siding/grey{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood/light{
+/obj/effect/turf_decal/siding/grey{
 	dir = 8
 	},
-/obj/machinery/light/prince/directional/west{
-	pixel_y = 8
-	},
-/turf/open/floor/wood/ornate,
+/obj/structure/hedge,
+/obj/structure/flora/bush/flowers_br/style_random,
+/turf/open/floor/plating/granite/black,
 /area/vtm)
 "fWJ" = (
 /obj/effect/turf_decal/siding/grey{
@@ -30406,10 +30425,10 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood/light{
-	dir = 4
-	},
-/turf/open/floor/wood/smooth,
+/obj/effect/turf_decal/siding/grey/end,
+/obj/structure/hedge,
+/obj/structure/flora/bush/flowers_br/style_random,
+/turf/open/floor/plating/granite/black,
 /area/vtm)
 "hGb" = (
 /obj/effect/turf_decal/siding/tan/end{
@@ -43916,6 +43935,17 @@
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights/industrial)
+"kYs" = (
+/obj/effect/turf_decal/siding/grey/end{
+	dir = 1
+	},
+/obj/structure/hedge,
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/granite/black,
+/area/vtm)
 "kYC" = (
 /obj/structure/vampdoor/wood{
 	dir = 4
@@ -91353,6 +91383,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/trainyard)
+"wJS" = (
+/obj/effect/turf_decal/siding/grey/end,
+/obj/structure/hedge,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/plating/granite/black,
+/area/vtm)
 "wJZ" = (
 /obj/structure/vampipe{
 	pixel_y = 32
@@ -215493,9 +215529,9 @@ mjT
 mjT
 mjT
 mjT
-pcN
+kYs
 fWF
-cKz
+wJS
 nRV
 vRM
 caM
@@ -215697,9 +215733,9 @@ mjT
 mjT
 mjT
 mjT
-xPH
-lCi
-lCi
+pcN
+bHS
+cKz
 nRV
 asu
 acg
@@ -215903,7 +215939,7 @@ mjT
 mjT
 xPH
 lCi
-lCi
+mrM
 nRV
 asu
 acg
@@ -216107,7 +216143,7 @@ mjT
 mjT
 xPH
 lCi
-mrM
+lCi
 nRV
 vvs
 acg
@@ -217126,7 +217162,7 @@ mjT
 mjT
 mjT
 usf
-hFW
+dpH
 hFW
 ucp
 ucp
