@@ -184,6 +184,25 @@
 		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Bartender", USE_JOB_TITLE = FALSE)
 		)
 
+//TFN EDIT ADD START
+/obj/item/smartphone/bouncer
+	contact_networks_pre_init = list(
+		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Bouncer", USE_JOB_TITLE = FALSE)
+		)
+
+/obj/item/smartphone/reeve
+	contact_networks_pre_init = list(
+		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Lead Bouncer", USE_JOB_TITLE = FALSE)
+		, alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Anarchy Rose Club Lead Bouncer", USE_JOB_TITLE = FALSE)
+		)
+
+/obj/item/smartphone/legate
+	contact_networks_pre_init = list(
+		alist(NETWORK_ID = ANARCH_NETWORK, OUR_ROLE = "Club Representative", USE_JOB_TITLE = FALSE)
+		, alist(NETWORK_ID = VAMPIRE_LEADER_NETWORK, OUR_ROLE = "Anarchy Rose Club Representative", USE_JOB_TITLE = FALSE)
+		)
+//TFN EDIT ADD END
+
 // SUPPLY
 
 /obj/item/smartphone/supply_tech

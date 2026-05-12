@@ -91,6 +91,35 @@
 	worn_icon = 'modular_darkpack/modules/jobs/icons/id_worn.dmi'
 	worn_icon_state = "bruiser_badge"
 
+//TFN EDIT ADD START
+/obj/item/card/legate
+	name = "legate badge"
+	desc = "A badge which shows a favored voice, interlaced with gold thread."
+	icon = 'modular_darkpack/modules/jobs/icons/id_items.dmi'
+	icon_state = "emissary_badge"
+	ONFLOOR_ICON_HELPER('modular_darkpack/modules/jobs/icons/id_onfloors.dmi')
+	worn_icon = 'modular_darkpack/modules/jobs/icons/id_worn.dmi'
+	worn_icon_state = "emissary_badge"
+
+/obj/item/card/reeve
+	name = "reeve badge"
+	desc = "A badge which shows a favored fist, interlaced with gold thread."
+	icon = 'modular_darkpack/modules/jobs/icons/id_items.dmi'
+	icon_state = "emissary_badge"
+	ONFLOOR_ICON_HELPER('modular_darkpack/modules/jobs/icons/id_onfloors.dmi')
+	worn_icon = 'modular_darkpack/modules/jobs/icons/id_worn.dmi'
+	worn_icon_state = "emissary_badge"
+
+/obj/item/card/bouncer
+	name = "bouncer badge"
+	desc = "A badge which shows grit."
+	icon = 'modular_darkpack/modules/jobs/icons/id_items.dmi'
+	icon_state = "bruiser_badge"
+	ONFLOOR_ICON_HELPER('modular_darkpack/modules/jobs/icons/id_onfloors.dmi')
+	worn_icon = 'modular_darkpack/modules/jobs/icons/id_worn.dmi'
+	worn_icon_state = "bruiser_badge"
+//TFN EDIT ADD END
+
 /obj/item/card/clinic
 	name = "medical badge"
 	desc = "A badge which shows medical qualification."

@@ -14,10 +14,13 @@
 	name = "generic anarch start"
 
 JOB_START_HELPER(anarch/baron, JOB_BARON)
-JOB_START_HELPER(anarch/bruiser, JOB_BRUISER)
-JOB_START_HELPER(anarch/emissary, JOB_EMISSARY)
+//JOB_START_HELPER(anarch/bruiser, JOB_BRUISER) TFN EDIT REMOVE
+//JOB_START_HELPER(anarch/emissary, JOB_EMISSARY) TFN EDIT REMOVE
 JOB_START_HELPER(anarch/sweeper, JOB_SWEEPER)
 JOB_START_HELPER(anarch/tapster, JOB_TAPSTER)
+JOB_START_HELPER(anarch/legate, JOB_LEGATE) //TFN EDIT ADD
+JOB_START_HELPER(anarch/reeve, JOB_REEVE) //TFN EDIT ADD
+JOB_START_HELPER(anarch/bouncer, JOB_BOUNCER) //TFN EDIT ADD
 
 /* Axe Gang */
 /obj/effect/landmark/start/darkpack/axe
